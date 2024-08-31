@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Local Storage</title>
+</head>
+<body>
+    <h2>Local Storage</h2>
+    <script>
+        window.localStorage.setItem("name","NRM");
+        window.localStorage.setItem("city","Mumbai");
+        window.localStorage.setItem("pincode","400076");
+        window.localStorage.setItem("District","Mumbai");
+        console.log("****After REMOVING city as key****");
+        window.localStorage.removeItem("city");
+
+    </script>
+</body>
+</html>
